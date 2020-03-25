@@ -5,10 +5,9 @@ public class Animal {
 
     }
 
-    public  String sound() {
+    public void sound() {
         System.out.println("Barks");
         System.out.println("Meows");
-        return null;
     }
 
     public String getName() {
@@ -19,9 +18,6 @@ public class Animal {
         this.name = name;
     }
 
-   //public void eat(){
-   //     System.out.println(name + " eat");
-   // }
 
     public String eat() {
         return "Food";

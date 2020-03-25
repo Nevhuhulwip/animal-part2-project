@@ -6,13 +6,10 @@ public class MainProgram {
         Cat cat = new Cat();
 
         dog1.setName( "Rax");
-        //dog1.eat();
-        //dog1.sound();
         System.out.println( dog1.eat());
         System.out.println(dog1.sound());
+
         cat.setName( "Stormy");
-        //cat.eat();
-        //cat.sound();
         System.out.println(cat.eat());
         System.out.println(cat.sound());
 
